@@ -17,7 +17,7 @@
 include device/samsung/millet-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := milletwifi, milletwifiue, milletwi
+TARGET_OTA_ASSERT_DEVICE := milletwifi,milletwifiue,milletwi
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_milletwifi_defconfig
