@@ -25,3 +25,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # common millet
 $(call inherit-product, device/samsung/millet-common/millet.mk)
+
+# opengapps
+$(call inherit-product, vendor/Gapps-Preloader/opengapps.mk)
